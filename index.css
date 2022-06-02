@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    max-width: 900px;
+    background-color: azure;
+    margin: 0 auto;
+    font-family: 'SBAggroB';
+}
+
+button, input { font-family: 'SBAggroB'; }
+input[type='radio'],input[type='radio']:checked { display: none; }
+
+#index {
+    display: block;
+    margin-top: 200px;
+}
+
+.top {
+    color: deeppink;
+    font-size: 30px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#start {
+    color: white;
+	background-color: deeppink;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+	cursor: pointer;
+	border-radius: 10px;
+	border-style:none;
+    padding-top: 5px;
+}
+
+#set-1, #set-2 {
+    display: none;
+    margin-top: 200px;  
+}
+
+#question-1, #question-2 {
+    
+    color: deeppink;
+    font-size: 25px;
+    line-height: 27px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.answer-11, .answer-12, .answer-21, .answer-22 {
+    display:inline-block;
+    color : white;
+    background-color: deeppink;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+	margin : 10px;
+}
+
+#result-1, #result-2, #result-3, #result-4 {
+    display: none;
+    margin-top: 200px;
+}
+
+#result-title {
+    color: deeppink;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#result-name {
+    color: deeppink;
+    font-size: 40px;
+    line-height: 27px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#result-return {
+    color: white;
+	background-color: deeppink;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+	cursor: pointer;
+	border-radius: 10px;
+	border-style:none;
+    padding-top: 5px;
+}
